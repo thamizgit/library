@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/library/static/css/main.95882330.css",
+    "main.js": "/library/static/js/main.5a952901.js",
+    "static/media/harrypotter.jpg": "/library/static/media/harrypotter.45c12d60afe51df537b6.jpg",
+    "static/media/devrev-library.png": "/library/static/media/devrev-library.6de66d91951e61a90e34.png",
+    "index.html": "/library/index.html",
+    "main.95882330.css.map": "/library/static/css/main.95882330.css.map",
+    "main.5a952901.js.map": "/library/static/js/main.5a952901.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95882330.css",
+    "static/js/main.5a952901.js"
+  ]
+}
