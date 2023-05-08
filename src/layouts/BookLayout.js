@@ -115,18 +115,20 @@ const BookLayout = ({ id, img, title, author, date, rating,setBookClick }) => {
     }
   }
   return (
-    <article className={`book-layout ${favLoading && "mkblur"}`} onClick={()=>handleRecent(id)}>
+    <article
+      className={`book-layout ${favLoading && "mkblur"}`}
+      onClick={() => handleRecent(id)}
+    >
       <img
         className="book-img"
         onClick={() => setBookClick(true)}
-        src={`/books/${img}`}
+        src={require(`../../images/books/${img}`)}
         alt={title}
         width={250}
         height={350}
       />
       <p style={{ marginBottom: "-1.5rem", alignSelf: "flex-end" }}>
-        
-        {fav ? ( 
+        {fav ? (
           <AiTwotoneHeart
             onClick={() => handleFav()}
             style={{
@@ -147,7 +149,7 @@ const BookLayout = ({ id, img, title, author, date, rating,setBookClick }) => {
           />
         )}
       </p>
-      
+
       <article
         style={{
           display: "flex",
