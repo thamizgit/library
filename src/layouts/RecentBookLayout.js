@@ -58,7 +58,7 @@ const BookLayout = ({ id, img, title, author, date, rating,setBookClick }) => {
       <img
         className="book-img"
         onClick={() => setBookClick(true)}
-        src={require(`../images/${img}`)}
+        src={require(`../images/books/${img}`)}
         alt={title}
         width={250}
         height={350}
@@ -95,7 +95,6 @@ const BookLayout = ({ id, img, title, author, date, rating,setBookClick }) => {
           <b>Rating :</b> <span style={{ color: "gold" }}>{rates}</span>
         </span>
       </p>
-      
     </article>
   );
 };
