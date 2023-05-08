@@ -1,15 +1,38 @@
 {
   "files": {
     "main.css": "/library/static/css/main.95882330.css",
-    "main.js": "/library/static/js/main.5a952901.js",
+    "main.js": "/library/static/js/main.2bd3f6d1.js",
     "static/media/harrypotter.jpg": "/library/static/media/harrypotter.45c12d60afe51df537b6.jpg",
+    "static/media/courtofsilverwings.jfif": "/library/static/media/courtofsilverwings.1ed7b5e2cf6c8e7268c3.jfif",
+    "static/media/toend.jfif": "/library/static/media/toend.ec3e5e47087fe65c3d4c.jfif",
+    "static/media/starwars.jfif": "/library/static/media/starwars.d51cda3b1d589563aaf9.jfif",
+    "static/media/bridewore.jfif": "/library/static/media/bridewore.7a543971944ee0710bc6.jfif",
+    "static/media/timemachine.jfif": "/library/static/media/timemachine.20a245b70fd19c4f921f.jfif",
+    "static/media/whenshedreams.jfif": "/library/static/media/whenshedreams.5a44ecddc51120bed933.jfif",
+    "static/media/hiddenhindu.jfif": "/library/static/media/hiddenhindu.209239fc2f185e785b3c.jfif",
+    "static/media/story.jfif": "/library/static/media/story.add37d8cfaa5e9b4e04a.jfif",
+    "static/media/geetanjali.jfif": "/library/static/media/geetanjali.5c42a5801afa6a878cf4.jfif",
+    "static/media/courtofmist.jfif": "/library/static/media/courtofmist.62ef6f09bd0f61c13536.jfif",
+    "static/media/tombofsand.jfif": "/library/static/media/tombofsand.ef7a2d6aaf00df8a45a2.jfif",
+    "static/media/courtofwings.jfif": "/library/static/media/courtofwings.b4e54c0cdda949b9888c.jfif",
+    "static/media/TDT1.jfif": "/library/static/media/TDT1.92bf308a60dca1ccc1c6.jfif",
+    "static/media/anna.jfif": "/library/static/media/anna.d1e2d48f022791864c3d.jfif",
+    "static/media/warandpeace.jfif": "/library/static/media/warandpeace.07b3f8638b054b57fafc.jfif",
+    "static/media/confession.jfif": "/library/static/media/confession.cf09a79d45b9087671b7.jfif",
+    "static/media/meinkampf.jfif": "/library/static/media/meinkampf.0aa4588cde86e3583818.jfif",
+    "static/media/TheStand.jfif": "/library/static/media/TheStand.08ee5aca323d61cdbe0c.jfif",
+    "static/media/FairyTale.jfif": "/library/static/media/FairyTale.04cc6b68c03030f6615a.jfif",
+    "static/media/homeage.jfif": "/library/static/media/homeage.51eb7be403c80850164a.jfif",
+    "static/media/sherlockholmes.jfif": "/library/static/media/sherlockholmes.05a79dfb8fea8593ae1d.jfif",
+    "static/media/animalfarm.jfif": "/library/static/media/animalfarm.7a1c51edf1004ddb88d6.jfif",
     "static/media/devrev-library.png": "/library/static/media/devrev-library.6de66d91951e61a90e34.png",
+    "static/media/48laws.jfif": "/library/static/media/48laws.26f57ce657a271b51af5.jfif",
     "index.html": "/library/index.html",
     "main.95882330.css.map": "/library/static/css/main.95882330.css.map",
-    "main.5a952901.js.map": "/library/static/js/main.5a952901.js.map"
+    "main.2bd3f6d1.js.map": "/library/static/js/main.2bd3f6d1.js.map"
   },
   "entrypoints": [
     "static/css/main.95882330.css",
-    "static/js/main.5a952901.js"
+    "static/js/main.2bd3f6d1.js"
   ]
 }
