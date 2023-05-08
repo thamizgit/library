@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/library/static/css/main.95882330.css",
-    "main.js": "/library/static/js/main.2bd3f6d1.js",
+    "main.css": "/library/static/css/main.c1cb7765.css",
+    "main.js": "/library/static/js/main.81b37c0d.js",
     "static/media/harrypotter.jpg": "/library/static/media/harrypotter.45c12d60afe51df537b6.jpg",
     "static/media/courtofsilverwings.jfif": "/library/static/media/courtofsilverwings.1ed7b5e2cf6c8e7268c3.jfif",
     "static/media/toend.jfif": "/library/static/media/toend.ec3e5e47087fe65c3d4c.jfif",
@@ -26,13 +26,14 @@
     "static/media/sherlockholmes.jfif": "/library/static/media/sherlockholmes.05a79dfb8fea8593ae1d.jfif",
     "static/media/animalfarm.jfif": "/library/static/media/animalfarm.7a1c51edf1004ddb88d6.jfif",
     "static/media/devrev-library.png": "/library/static/media/devrev-library.6de66d91951e61a90e34.png",
+    "static/media/thamiz-library.png": "/library/static/media/thamiz-library.3792d88d07b92502e962.png",
     "static/media/48laws.jfif": "/library/static/media/48laws.26f57ce657a271b51af5.jfif",
     "index.html": "/library/index.html",
-    "main.95882330.css.map": "/library/static/css/main.95882330.css.map",
-    "main.2bd3f6d1.js.map": "/library/static/js/main.2bd3f6d1.js.map"
+    "main.c1cb7765.css.map": "/library/static/css/main.c1cb7765.css.map",
+    "main.81b37c0d.js.map": "/library/static/js/main.81b37c0d.js.map"
   },
   "entrypoints": [
-    "static/css/main.95882330.css",
-    "static/js/main.2bd3f6d1.js"
+    "static/css/main.c1cb7765.css",
+    "static/js/main.81b37c0d.js"
   ]
 }
