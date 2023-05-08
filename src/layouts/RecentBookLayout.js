@@ -58,7 +58,7 @@ const BookLayout = ({ id, img, title, author, date, rating,setBookClick }) => {
       <img
         className="book-img"
         onClick={() => setBookClick(true)}
-        src={`/books/${img}`}
+        src={require(`../images/${img}`)}
         alt={title}
         width={250}
         height={350}

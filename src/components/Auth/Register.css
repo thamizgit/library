@@ -1,3 +1,7 @@
+.register-container{
+    display: flex;
+    flex-direction: column;
+}
 
 .register{
     color:white;
@@ -10,6 +14,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-self: center;
+    justify-self: center;
 }
 .register form{
     display: flex;
@@ -90,7 +96,7 @@
   text-align: center;
   display: inline-block;
  position: absolute;
- top:36%;
+ top:34%;
  margin: 0.8rem 1rem;
   
 }
@@ -112,7 +118,7 @@
         width: 60%;
     }
     .spin-1{
-        top:30%;
+        top:28%;
     }
 
 }

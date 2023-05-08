@@ -65,23 +65,27 @@ const Login = ({isLoading,setIsLoading}) => {
         <h1>LOGIN {isLoading && <p className="spin-1"></p>}</h1>
         <form className="register-form">
           <label htmlFor="username">Username:</label>
-          <input className="match"
+          <input
+            className="match"
             type="text"
             id="username"
             required
             autoComplete="off"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
+            onFocus={() => setErrMsg("")}
           />
 
           <label htmlFor="password">Password:</label>
-          <input className="match"
+          <input
+            className="match"
             type="password"
             id="password"
             required
             autoComplete="off"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
+            onFocus={() => setErrMsg("")}
           />
 
           <button type="submit" onClick={(e) => handleSubmit(e)}>
