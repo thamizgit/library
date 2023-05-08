@@ -1,0 +1,10 @@
+.recent-layout h1{
+    color: white;
+}
+.recent-section{
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+ 

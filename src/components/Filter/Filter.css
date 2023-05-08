@@ -1,0 +1,98 @@
+.filter-layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+   
+}
+.filter{
+    color:white;
+    display: flex;
+    margin: 1rem;
+    column-gap: 1rem;
+    justify-content: flex-end;
+
+}
+.filter .filter-box{
+    background-color: whitesmoke;
+    display: inline-block;
+    padding: 10px 30px;
+    color:black;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.filter-container{
+    background-color: white;
+    margin-right: 1rem;
+    padding: 10px 20px;
+    border-radius: 12px;
+    margin-top: -1rem;
+    font-weight: bold;
+    animation: filter-anim 0.1s ;
+}
+.filter-container p{
+    text-align: center;
+    cursor: pointer;
+
+}
+.filter-container p.active{
+    color:green;
+}
+.title-layout{
+    display:flex;
+    flex-direction: column;
+    row-gap:0.2rem;
+    background-color: black;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+.title-layout input{
+    max-width: 100px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 3px;
+    color:white;
+    outline:none;
+}
+.title-layout button{
+    border: none;
+    outline: none;
+    max-width: 60px;
+    margin: 0.3rem auto;
+    padding: 0.2rem 1rem;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.title-layout button:hover{
+    background-color: white;
+    color: black;
+}
+.title-layout label{
+    color:white;
+    font-size: 0.7rem;
+    font-weight: normal;
+}
+.blur{
+    filter: blur(1.3rem);
+}
+@keyframes filter-anim {
+    0%{
+        transform: scaleY(0);
+    }
+    30%{
+        transform: scaleY(0.3);
+    }
+    60%{
+        transform: scaleY(0.6);
+    }
+    90%{
+        transform: scaleY(0.9);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+}

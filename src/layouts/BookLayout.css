@@ -1,0 +1,85 @@
+.book-layout{
+    margin: 1rem;
+    padding: 0.8rem;
+    border-radius: 12px;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 550px;
+    display: flex;
+    background-color:rgb(255, 255, 255);
+    flex-flow: column wrap;
+    border: 2px solid purple;
+    justify-content: center;
+    align-items: center;
+}
+.book-layout img{
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 2px 5px 5px black;
+}
+.book-layout-attr{
+    font-family: 'Poppins', sans-serif;
+    color:purple;
+    font-size: 1.2rem;
+    
+}
+.book-layout p{
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.book-layout button{
+    border: none;
+    outline: none;
+    background-color:red;
+    color:whitesmoke;
+    margin: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.book-img:hover {
+    transform: scale(1.05);
+    transition: 0.5s all;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.ratings{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color:gold;
+}
+.favourite-icon.fill{
+    color:red;
+    border: 2px solid red;
+}
+.spin{
+
+  width: 20px;
+  height: 20px;
+  border: 2px solid red;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spin 1s ease-in-out infinite;
+  text-align: center;
+  position: absolute;
+  top:103%;
+}
+.mkblur{
+    filter: blur(1.3rem);
+}
+@media screen and (max-width:500px) {
+    .book-layout{
+        max-width: 270px;
+        min-height:460px;
+    }
+    .book-layout-attr{
+        font-size: 1.2rem;
+    }
+    .book-layout img{
+        width: 100%;
+        height: 250px;
+    }
+}

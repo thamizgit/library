@@ -1,0 +1,118 @@
+
+.register{
+    color:white;
+    width: 370px;
+    margin: 4.5rem auto;
+    padding: 2rem;
+    border: 2px solid white;
+    border-radius: 13px;
+    box-shadow: 5px 5px 12px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.register form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.register form label{
+    letter-spacing: 0.2rem;
+    margin: 0.4rem 0;
+   
+    font-size: 1.2rem;
+}
+.register form input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border:1px solid white;
+    outline: 1px solid white;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color:red;
+    padding: 0.4rem;
+}
+.register form input.match{
+    color:rgb(49, 209, 49);
+}
+.register form input:focus{
+    background-color: white;
+    color:black;
+    font-weight: bold;
+}
+
+.register form button{
+    margin: 1.4rem auto;
+    width: 100px;
+    padding: 10px 2px;
+    background-color: transparent;
+    border: 1px solid white;
+    outline: 1px solid white;
+    color:white;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
+.register form button:hover{
+    background-color: white;
+    color:black;
+    font-weight: bold;
+}
+.register .info-msg{
+    background-color: transparent;
+    color:white;
+    padding: 0.5rem;
+    border: 1px solid white;
+    outline:1px solid white;
+    border-radius: 13px;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+.register .err-msg{
+    background-color: hsl(0, 100%, 50%,40%);
+    color:red;
+    padding: 0.5rem;
+    border: 1px solid red;
+    outline:1px solid red;
+    border-radius: 13px;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+.spin-1{
+ width: 20px;
+  height: 20px;
+  border: 2px solid #fff;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spin 1s ease-in-out infinite;
+  text-align: center;
+  display: inline-block;
+ position: absolute;
+ top:36%;
+ margin: 0.8rem 1rem;
+  
+}
+.spin{
+    width: 20px;
+  height: 20px;
+  border: 2px solid #fff;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spin 1s ease-in-out infinite;
+  text-align: center;
+  display: inline-block;
+ position: absolute;
+ top:50%;
+ left:50%;
+}
+@media screen and (max-width:500px) {
+    .register{
+        width: 60%;
+    }
+    .spin-1{
+        top:30%;
+    }
+
+}
